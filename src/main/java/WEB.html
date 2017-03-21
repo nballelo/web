@@ -1,0 +1,57 @@
+<html lang="en">
+<head>
+    <title>Web</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script>
+
+        $(document).ready(function(){
+            $("table").hide();
+            $("button").click(function(){
+                $("table").toggle();
+            });
+        });
+    </script>
+</head>
+<body>
+
+<div class="container">
+    <h2>Tabla</h2>
+    <p>HOLA</p>
+    <button class="button">Mostrar tabla</button>
+    <table class="table">
+        <thead>
+        <tr>
+            <th>Pokemon</th>
+            <th>Tipo</th>
+            <th>Ataque 1</th>
+            <th>Ataque 2</th>
+            <th>Ataque 3</th>
+            <th>Ataque 4</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Masmi</td>
+            <td>poderoso</td>
+            <td>patada</td>
+            <td>puñetazo</td>
+            <td>suspenso</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Lobo</td>
+            <td>Esclavo</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
